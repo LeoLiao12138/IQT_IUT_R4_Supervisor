@@ -1,0 +1,14 @@
+D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe.config
+D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe
+D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.pdb
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.Form1.resources
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.Properties.Resources.resources
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.GenerateResource.cache
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.CoreCompileInputs.cache
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.exe
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.pdb
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.AssemblyReference.cache
+D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe.manifest
+D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.application
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.exe.manifest
+D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.application

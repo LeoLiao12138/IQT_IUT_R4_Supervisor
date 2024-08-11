@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQT_IUT_R4_Supervisor", "IQT_IUT_R4_Supervisor.csproj", "{C2F45E81-E155-4EAF-BE59-4A41CE56AA21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F45E81-E155-4EAF-BE59-4A41CE56AA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F45E81-E155-4EAF-BE59-4A41CE56AA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F45E81-E155-4EAF-BE59-4A41CE56AA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F45E81-E155-4EAF-BE59-4A41CE56AA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE955B0A-D048-4CE2-AB4D-DFA7BB5C7592}
+	EndGlobalSection
+EndGlobal
