@@ -35,7 +35,7 @@ namespace IQT_IUT_R4_Supervisor
                 com_num.SelectedIndex = 0;
             }
 
-            string[] parameters = { "CT","PT","QV","TA" };
+            string[] parameters = { "CT","PT","QV","TA","AP" };
             Parameter.Items.Clear();
             Parameter.Items.AddRange(parameters);
             if(Parameter.Items.Count >0)
@@ -320,6 +320,13 @@ namespace IQT_IUT_R4_Supervisor
 
                     break;
 
+                case "AP":
+                    string AP_hexString = "52 50 55 41 50 00 00 23 0D";
+                    Console.WriteLine(AP_hexString);
+                    bytes = HexStringToBytes(AP_hexString);
+
+                    break;
+
                 default:
                     Console.WriteLine("defalut");
                     break;
@@ -362,6 +369,13 @@ namespace IQT_IUT_R4_Supervisor
                     string TA_hexString = "57 50 55 54 41 00 01 "+TA_para+" 23 0D";
                     Console.WriteLine(TA_hexString);
                     bytes = HexStringToBytes(TA_hexString);
+                    break;
+
+                case "AP":
+                    string AP_para = paramete_inout.Text;
+                    string AP_hexString = "57 50 55 41 50 00 01 " + AP_para + " 23 0D";
+                    Console.WriteLine(AP_hexString);
+                    bytes = HexStringToBytes(AP_hexString);
                     break;
             }
             serialPort.Write(bytes, 0, bytes.Length);
@@ -410,15 +424,6 @@ namespace IQT_IUT_R4_Supervisor
             command_type = "epc";
         }
 
-        private void EP_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void usr_receive_data_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 
 
