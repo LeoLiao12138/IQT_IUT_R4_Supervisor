@@ -12,3 +12,17 @@ D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe.manifest
 D:\C# project\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.application
 D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.exe.manifest
 D:\C# project\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.application
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe.config
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe.manifest
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.application
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.exe
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\bin\Debug\IQT_IUT_R4_Supervisor.pdb
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.AssemblyReference.cache
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.Form1.resources
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.Properties.Resources.resources
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.GenerateResource.cache
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.csproj.CoreCompileInputs.cache
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.exe.manifest
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.application
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.exe
+C:\Users\IPC-GZ\Documents\C# project\IQT_IUT_R4_Supervisor\IQT_IUT_R4_Supervisor\obj\Debug\IQT_IUT_R4_Supervisor.pdb

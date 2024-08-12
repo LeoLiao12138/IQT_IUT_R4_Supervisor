@@ -115,61 +115,71 @@ namespace IQT_IUT_R4_Supervisor
             sp.Read(buffer, 0, buffer.Length);
             string response = BitConverter.ToString(buffer).Replace("-", " ");
             //string response = Encoding.ASCII.GetString(buffer);
-            this.Invoke(new Action(() =>
+            if (buffer.Length != 0)
             {
-                receive_data.Text = response;
-                switch (command_type)
+                this.Invoke(new Action(() =>
                 {
-                    case "user":
-                        if(buffer[0] == 0x30)
-                        {
-                            byte[] user_data = new byte[buffer.Length - 3];
-                            Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
-                           if(Hex_select.Checked == true)
+                    receive_data.Text = response;
+                    switch (command_type)
+                    {
+                        case "user":
+                            if (buffer[0] == 0x30)
                             {
-                                user_read_data.Text = BitConverter.ToString(user_data).Replace("-", " ");
+                                byte[] user_data = new byte[buffer.Length - 3];
+                                Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
+                                if (Hex_select.Checked == true)
+                                {
+                                    user_read_data.Text = BitConverter.ToString(user_data).Replace("-", " ");
+                                }
+                                else
+                                {
+                                    user_read_data.Text = Encoding.ASCII.GetString(user_data);
+
+                                }
                             }
-                           else
+                            else if (buffer[0] == 0x35)
                             {
-                                user_read_data.Text = Encoding.ASCII.GetString(user_data);
-
+                                user_read_data.Text = "no tag";
                             }
-                        }
-                        else if(buffer[0]==0x35)
-                        {
-                            user_read_data.Text = "no tag";
-                        }
-
-                        break;
-                    case "epc":
-                        if (buffer[0] == 0x30)
-                        {
-                            byte[] user_data = new byte[buffer.Length - 3];
-                            Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
+                            
+                            else if(buffer[0] == 0x41)
+                                {
+                                user_read_data.Text = "there are more than one tag";
+                            }
+                            break;
+                        case "epc":
+                            if (buffer[0] == 0x30)
+                            {
+                                byte[] user_data = new byte[buffer.Length - 3];
+                                Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
                                 EPC_read_data.Text = BitConverter.ToString(user_data).Replace("-", " ");
-                        }
-                        else if (buffer[0] == 0x35)
-                        {
-                            EPC_read_data.Text = "no tag";
-                        }
-                        break;
-                    case "parameter":
-                        if (buffer[0] == 0x30)
-                        {
-                            byte[] user_data = new byte[buffer.Length - 3];
-                            Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
-                            paramete_inout.Text = BitConverter.ToString(user_data).Replace("-", " ");
-                        }
-                        else if (buffer[0] == 0x35)
-                        {
-                            paramete_inout.Text = "no tag";
-                        }
-                        break;
-                    default:
-                        break;
-                }
-            }));
-
+                            }
+                            else if (buffer[0] == 0x35)
+                            {
+                                EPC_read_data.Text = "no tag";
+                            }
+                            else if (buffer[0] == 0x41)
+                            {
+                                EPC_read_data.Text = "there are more than one tag";
+                            }
+                            break;
+                        case "parameter":
+                            if (buffer[0] == 0x30)
+                            {
+                                byte[] user_data = new byte[buffer.Length - 3];
+                                Array.Copy(buffer, 1, user_data, 0, buffer.Length - 3);
+                                paramete_inout.Text = BitConverter.ToString(user_data).Replace("-", " ");
+                            }
+                            else if (buffer[0] == 0x35)
+                            {
+                                paramete_inout.Text = "no tag";
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }));
+            }
         }
 
         private void disconnect_Click(object sender, EventArgs e)
