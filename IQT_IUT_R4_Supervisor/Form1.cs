@@ -82,7 +82,7 @@ namespace IQT_IUT_R4_Supervisor
                     serialPort.PortName = com_num.SelectedItem.ToString();  // 替换为你的串口号，例如 COM3
                     serialPort.BaudRate = 38400;   // 波特率
                     serialPort.DataBits = 8;      // 数据位
-                    serialPort.Parity = Parity.Even;   // 校验位
+                    serialPort.Parity = Parity.None;   // 校验位
                     serialPort.StopBits = StopBits.One; // 停止位
                     serialPort.Open();
                     serialPort.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
